@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap");
 
+/* colors 
+
+#31179C
+#4A37B7
+#6B36AC
+#5D1986
+#701B79
+*/
+
 :root {
 	--color-default: #000;
 	--color-brown: #cc894d;
@@ -213,11 +222,159 @@ body {
 	color: #445c99;
 }
 
-/* colors 
+/* Media Queries */
 
-#31179C
-#4A37B7
-#6B36AC
-#5D1986
-#701B79
-*/
+@media (min-width: 1299px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 46%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 1298px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 56%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 1000px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 56%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 998px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 66%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 878px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 66%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 876px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 70%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 800px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 72%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 750px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 76%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 699px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 88%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 620px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 90%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 570px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 92%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+@media (max-width: 550px) {
+	.todo-main {
+		color: var(--color-white);
+		background: transparent;
+		/* background-color: #cc894d; */
+		width: 98%;
+		margin: -220px auto;
+		height: 20vmax;
+		padding: -10px;
+	}
+}
+
+/* Mini Nav */
+
+@media (max-width: 525px) {
+	.mini-nav {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 15px;
+		color: rgba(128, 128, 128, 0.895);
+		width: 100%;
+		font-size: 0.9rem;
+	}
+}
+
+/* Todos */
+
+@media (max-width: 525px) {
+	.todo-item {
+		font-size: 0.9rem;
+		font-weight: 500;
+	}
+}
