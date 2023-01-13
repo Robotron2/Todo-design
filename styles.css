@@ -191,7 +191,8 @@ body {
 .mini-nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 30px;
+	padding: 20px 30px;
+	color: rgba(128, 128, 128, 0.895);
 }
 
 .mini-nav ul {
@@ -200,7 +201,16 @@ body {
 }
 
 .mini-nav ul li {
-	margin: 5px;
+	margin: 0 5px;
+}
+
+.mini-nav p:hover,
+.mini-nav ul li:hover {
+	color: var(--color-white);
+}
+
+.active {
+	color: #445c99;
 }
 
 /* colors 
