@@ -17,6 +17,7 @@
 
 body {
 	background-image: url("/books.jpg");
+	height: 100vh;
 }
 
 .gradient {
@@ -47,9 +48,10 @@ body {
 	color: var(--color-white);
 	background: transparent;
 	/* background-color: #cc894d; */
-	width: 40%;
-	margin: -170px auto;
-	height: 10vmax;
+	width: 36%;
+	margin: -220px auto;
+	height: 20vmax;
+	padding: -10px;
 }
 
 .todo-header {
@@ -71,7 +73,7 @@ body {
 	display: flex;
 	width: 94%;
 	background-color: var(--color-darkBlue);
-	padding: 1%;
+	padding: 20px 30px;
 	justify-content: space-around;
 	margin: 30px auto;
 }
@@ -144,7 +146,7 @@ body {
 	border: 0;
 	font-size: medium;
 	background: transparent;
-	border-bottom: 1px solid grey;
+
 	color: var(--color-white);
 }
 
@@ -154,27 +156,51 @@ body {
 	outline: none;
 }
 
-.todos {
-	display: flex;
-}
-
 .todos-container {
 	background-color: var(--color-darkBlue);
 	width: 94%;
 	margin: 0 auto;
-	padding: 1%;
 }
+
+.todo-border {
+	width: 100%;
+	padding: 10px 30px;
+	border-bottom: 1px solid rgba(175, 173, 173, 0.24);
+}
+
 .todos {
-	margin: 2px;
-	border-bottom: 2px solid grey;
+	display: flex;
+	margin-bottom: 5px;
+	/* border-bottom: 0.1px solid grey; */
 	color: lightgray;
-	padding: 0.2rem;
+	/* padding: 0.2rem; */
 	font-weight: 600;
+	/* padding: 10px; */
 }
 
 .todo-item {
 	padding: 0.4rem;
 	font-size: 1.1rem;
+	width: 100%;
+}
+
+.remove-todo {
+	margin: 0 0 0 auto;
+}
+
+.mini-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+}
+
+.mini-nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.mini-nav ul li {
+	margin: 5px;
 }
 
 /* colors 
